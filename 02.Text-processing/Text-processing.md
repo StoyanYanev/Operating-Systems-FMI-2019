@@ -56,13 +56,13 @@ wc -l < /etc/passwd
 2. cut -c1-26 < /etc/passwd |head -n1
 
 3. head -n $(($(wc-l < /etc/passwd) - 4)) /etc/passwd 
-    **или**  
+    или 
     head -n -4 /etc/passwd
 
 4.  tail -n17
 
 5.  sed -n '151p' < /etc/passwd  
-    **или**  
+     или   
     cat < /etc/passwd | head -n151 | tail -1
 
 6.  head -n13 /etc/passwd | tail -n1 | tail -c3
@@ -238,11 +238,11 @@ cat f1 f2 f3 | wc -l
 ```
 sed -r -i 's/([a-z])/\\U\\1/g' file2
 
-**или**
+или 
 
 tr '[:lower:]' '[:upper:]' \< file2
 
-**или**  
+или   
 
 tr a-z A-Z \< file2
 ```
@@ -301,7 +301,7 @@ grep -v ov /etc/passwd
 **/etc/passwd**.
 ```
 tail -n +28 /etc/passwd | head -n 19|cut -d: -f3 | awk '{print substr($0,length,1)}'  
-**или**  
+или  
 tail -n +28 /etc/passwd | head -n 19|cut -d: -f3 | grep -o .$
 ```
 **Задача 31**
@@ -416,7 +416,7 @@ awk -F ',' '$3==2016 {sum+=$4}END {print sum}' population.csv
 най-много население.
 ```
 awk -F ',' '($1=="Bulgaria"){print $3 " " $4}' population.csv|sort -t' ' -k2 -n| cut -d' ' -f1| tail -n1 
-**или**  
+или 
 grep -w Bulgaria population.csv|sort -t',' -k4 -n| cut -d',' -f3| tail -n1
 ```
 **Задача 44**
@@ -561,7 +561,7 @@ just"not"right\@example.com
 this\\ is"really"not\\allowed\@example.com
 ```
 
-**//TODO:**
+//TODO:
 
 ```
 **Задача 55**
