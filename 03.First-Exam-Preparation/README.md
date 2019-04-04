@@ -46,7 +46,7 @@ ls -l |tail -n +2 |tr -s ’ ’ |sort -t ’ ’ -k 2 -rn |head -n 5 | cut -d �
 
 *Примерно съдържание на файла:*
 
-s61934:x:1177:504:Mariq Cholakova:/home/SI/s61934:/bin/bash
+s61934: x :1177:504:Mariq Cholakova:/home/SI/s61934:/bin/bash
 
 s61916:x:1178:504:Simeon Aleksandrov:/home/SI/s61916:/bin/bash
 
