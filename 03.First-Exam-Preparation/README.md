@@ -48,17 +48,17 @@ ls -l |tail -n +2 |tr -s ’ ’ |sort -t ’ ’ -k 2 -rn |head -n 5 | cut -d �
 
 s61934: x :1177:504:Mariq Cholakova:/home/SI/s61934:/bin/bash
 
-s61916:x:1178:504:Simeon Aleksandrov:/home/SI/s61916:/bin/bash
+s61916: x :1178:504:Simeon Aleksandrov:/home/SI/s61916:/bin/bash
 
-s61884:x:1179:504:Ruslan Kapelev:/home/SI/s61884:/bin/bash
+s61884: x :1179:504:Ruslan Kapelev:/home/SI/s61884:/bin/bash
 
-s61895:x:1180:504:Zorka Shindova:/home/SI/s61895:/bin/bash
+s61895: x :1180:504:Zorka Shindova:/home/SI/s61895:/bin/bash
 
-s61899:x:1182:504:Zorka Ivanova:/home/SI/s61899:/bin/bash
+s61899: x :1182:504:Zorka Ivanova:/home/SI/s61899:/bin/bash
 
-s81374:x:1117:503:Ivan Kamburov, KN, 2kurs, 7gr:/home/KN/s81374:/bin/bash
+s81374: x :1117:503:Ivan Kamburov, KN, 2kurs, 7gr:/home/KN/s81374:/bin/bash
 
-s81382:x:1118:503:Teodora Cirkova, KN, 2kurs, 7gr:/home/KN/s81382:/bin/bash
+s81382: x :1118:503:Teodora Cirkova, KN, 2kurs, 7gr:/home/KN/s81382:/bin/bash
 
 *Примерен изход:*
 
@@ -100,17 +100,17 @@ pesho (или нейните под-директории), който има п�
 
 *За справка:*
 
-s61988:x:1219:504:Stoian Genchev,SI,2,5:/home/SI/s61988:/bin/bash
+s61988: x :1219:504:Stoian Genchev,SI,2,5:/home/SI/s61988:/bin/bash
 
-s81430:x:1234:503:Iordan Petkov, KN, k2, g7:/home/KN/s81430:/bin/bash
+s81430: x :1234:503:Iordan Petkov, KN, k2, g7:/home/KN/s81430:/bin/bash
 
-s61807:x:1248:504:Elica Venchova:/home/SI/s61807:/bin/bash
+s61807: x :1248:504:Elica Venchova:/home/SI/s61807:/bin/bash
 
-s62009:x:1254:504:Denitsa Dobreva, 2, 6:/home/SI/s62009:/bin/bash
+s62009: x :1254:504:Denitsa Dobreva, 2, 6:/home/SI/s62009:/bin/bash
 
-s61756:x:1258:504:Katrin Kartuleva, SI, 4, 1:/home/SI/s61756:/bin/bash
+s61756: x :1258:504:Katrin Kartuleva, SI, 4, 1:/home/SI/s61756:/bin/bash
 
-s855287:x:1195:504:Vaska Kichukova,SI,2,5:/home/SI/s855287:/bin/bash
+s855287: x :1195:504:Vaska Kichukova,SI,2,5:/home/SI/s855287:/bin/bash
 
 *Примерен изход:*
 
