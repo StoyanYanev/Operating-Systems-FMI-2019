@@ -102,7 +102,7 @@ pesho (или нейните под-директории), който има п�
 
 s61988: x :1219:504:Stoian Genchev,SI,2,5:/home/SI/s61988:/bin/bash
 
-s81430: x :1234:503:Iordan Petkov, KN, k2, g7:/home/KN/s81430:/bin/bash
+s81430: x : 1234:503:Iordan Petkov, KN, k2, g7:/home/KN/s81430:/bin/bash
 
 s61807: x :1248:504:Elica Venchova:/home/SI/s61807:/bin/bash
 
