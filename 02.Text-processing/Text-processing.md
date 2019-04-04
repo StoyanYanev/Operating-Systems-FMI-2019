@@ -238,10 +238,12 @@ cat f1 f2 f3 | wc -l
 ```
 sed -r -i 's/([a-z])/\\U\\1/g' file2
 
-**или**  
+**или**
+
 tr '[:lower:]' '[:upper:]' \< file2
 
 **или**  
+
 tr a-z A-Z \< file2
 ```
 **Задача 23**
@@ -558,7 +560,9 @@ just"not"right\@example.com
 
 this\\ is"really"not\\allowed\@example.com
 ```
+
 **//TODO:**
+
 ```
 **Задача 55**
 
