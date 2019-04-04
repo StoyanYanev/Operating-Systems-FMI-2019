@@ -11,13 +11,11 @@
 *Примерен изход:*
 
 260415
-
-find . -user \$(id -un) 2\> [/dev/null\|wc](../../dev/null|wc) –l  
-**или**  
-find . -user \$(whoami) 2\> [/dev/null](../../dev/null) \| wc -l2. ls -la\|tail
--n +2\|tr -s " " \|cut -d " " -f2,9\|sort -t " " -k1 -n\| tail -n5\| cut -d" "
--f2
-
+```
+find . -user $(id -un) 2> /dev/null|wc –l
+или
+find . -user $(whoami) 2> /dev/null | wc -l2. ls -la|tail -n +2|tr -s " " |cut -d " " -f2,9|sort -t " " -k1 -n| tail -n5| cut -d" " -f2
+```
 **-- SI-2017-z2**
 
 **Задача 2:**
@@ -35,10 +33,9 @@ a3.txt
 b1.txt
 
 b2.txt
-
-ls -l \|tail -n +2 \|tr -s ’ ’ \|sort -t ’ ’ -k 2 -rn \|head -n 5 \| cut -d ’ ’
--f 9-
-
+```
+ls -l |tail -n +2 |tr -s ’ ’ |sort -t ’ ’ -k 2 -rn |head -n 5 | cut -d ’ ’ -f 9-
+```
 **-- SI-2017-z3**
 
 **Задача 3:**
@@ -66,11 +63,9 @@ s81382:x:1118:503:Teodora Cirkova, KN, 2kurs, 7gr:/home/KN/s81382:/bin/bash
 *Примерен изход:*
 
 2 Zorka
-
-cat [/etc/passwd\|](../../etc/passwd|) grep SI\| cut -d ":" -f5\| cut -d ","
--f1\|tr -s " "\|egrep "a\$"\|cut -d " " -f1\|sort\| uniq -c\| sort -t " "
--k1\|tail -n1
-
+```
+cat /etc/passwd| grep SI| cut -d ":" -f5| cut -d "," -f1|tr -s " "|egrep "a$"|cut -d " " -f1|sort| uniq -c| sort -t " " -k1|tail -n1
+```
 **-- SI-2018-z1**
 
 **Задача 1:**
@@ -78,9 +73,9 @@ cat [/etc/passwd\|](../../etc/passwd|) grep SI\| cut -d ":" -f5\| cut -d ","
 Променете правата на всички директории, намиращи се някъде /във/ вашата **home**
 директория, така че да станат такива, каквито биха се получили, ако ги бяхте
 създали с маска **0022**.
-
-find \~ -mindepth 1 -type d -exec chmod 755 {} \\;
-
+```
+find ~ -mindepth 1 -type d -exec chmod 755 {} \;
+```
 **-- SI-2018-z2**
 
 **Задача 2:**
