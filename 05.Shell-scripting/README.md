@@ -29,11 +29,11 @@ vi ~/bashrc insert alias c='clear'
 
 Пример за употреба:
 
-# сваля /etc/passwd от os-server на вашия линукс
+#сваля /etc/passwd от os-server на вашия линукс
 
 ./get_remote_file /etc/passwd
 
-# note: Ако при логин в bash получавате някакъв текст е възможно scp да не
+#note: Ако при логин в bash получавате някакъв текст е възможно scp да не
 работи
 
 ```
